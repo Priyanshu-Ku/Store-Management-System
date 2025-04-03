@@ -1,5 +1,5 @@
 Store Management System 🛒
-
+ 
 A Java-based Object-Oriented Store Management System that helps businesses manage inventory, sales, and customers efficiently. This project follows OOP principles such as encapsulation, inheritance, polymorphism, and abstraction to ensure modularity and scalability.
 
 Features:
