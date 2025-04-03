@@ -1,0 +1,41 @@
++-------------------+       +-------------------+       +-------------------+
+|    EntityValidation |<>-----|      Person       |<|-----|      Customer     |
++-------------------+       +-------------------+       +-------------------+
+| +displayDetails() |       | -name: String     |       | -customerId: int  |
++-------------------+       | -email: String    |       +-------------------+
+                           | -phone: String     |       | +getCustomerId()  |
+                           +-------------------+       | +setCustomerId()  |
+                           | +getName()        |       +-------------------+
+                           | +setName()        |
+                           | +getEmail()       |       +-------------------+
+                           | +setEmail()       |       |       Staff        |
+                           | +getPhone()       |       +-------------------+
+                           | +setPhone()       |       | -staffId: int      |
+                           +-------------------+       | -salary: double    |
+                                                      +-------------------+
++-------------------+       +-------------------+       | +getStaffId()     |
+|      Billing      |<>-----|       Order       |<>-----| +setStaffId()     |
++-------------------+       +-------------------+       | +getSalary()      |
+| +calculateTotal() |       | -orderId: int     |       +-------------------+
+| +returnstock()    |       | -customer: Customer|
+| +isValid()        |       | -orderStatus: String
++-------------------+       | -orderDate: Date  |       +-------------------+
+                           | -staff: Staff      |       |      Product      |
+                           | -orderItem: OrderItem[]    +-------------------+
+                           +-------------------+       | -Brand: String     |
+                           | +getCustomer()    |       | -Category: String  |
+                           | +setCustomer()    |       | -productName: String
+                           +-------------------+       | -stock: int        |
+                                                      | -modelYear: int     |
++-------------------+       +-------------------+       | -price: double     |
+|    OrderItem      |       |       Store       |       +-------------------+
++-------------------+       +-------------------+       | +setBrand()       |
+| -orderId: int     |       | -staff: Staff[]   |       | +setCategory()    |
+| -product: Product |       | -product: Product[]       | +setStock()       |
+| -quantity: int    |       +-------------------+       | +setModelYear()   |
+| -discount: double |       | +displayDetails() |       | +setprice()       |
++-------------------+       +-------------------+       +-------------------+
+| +getDiscount()    |
+| +setDiscount()    |
+| +isValid()        |
++-------------------+
