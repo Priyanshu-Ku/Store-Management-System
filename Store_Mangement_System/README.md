@@ -1,18 +1,14 @@
-## Getting Started
+Store Management System 🛒
+A Java-based Object-Oriented Store Management System that helps businesses manage inventory, sales, and customers efficiently. This project follows OOP principles such as encapsulation, inheritance, polymorphism, and abstraction to ensure modularity and scalability.
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+Features:
+✔ Product Management (Add, Update, Delete, View)
+✔ Customer Management (Register, Update, Delete)
+✔ Order Processing (Create, View, Manage Orders)
+✔ Inventory Tracking
+✔ User Authentication
+✔ File Handling & Database Support
 
-## Folder Structure
+🔹 Tech Stack: Java, OOP
 
-The workspace contains two folders by default, where:
-
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
-
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
-
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
-
-## Dependency Management
-
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+📌 Contributions are welcome! Fork this repo, make improvements, and submit a pull request. 🚀
